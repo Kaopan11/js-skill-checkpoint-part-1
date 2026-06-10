@@ -5,3 +5,12 @@ const inventory = [
   { name: "Orange", price: 30, quantity: 60 },
 ];
 // เริ่มเขียนโค้ดตรงนี้
+
+// logic in Question #4 -> if-else, loop
+for (let inventorys of inventory) {
+  if (inventorys < inventory.quantity) [
+    console.log(true)
+  ]
+}
+
+
