@@ -8,7 +8,7 @@ let userPassword = "";
 // logic in Question #3 -> function, if-else
 let checkPasswordStrength = function(userPassword) {
     if (userPassword.length > 10) {
-        return "Storng";
+        return "Strong";
     }
     else if (userPassword.length >= 6) {
         return "Medium";
